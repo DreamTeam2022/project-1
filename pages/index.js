@@ -4,6 +4,7 @@ import Hero from '../section/Hero'
 import Test from '../section/Test'
 import Learn from '../section/Learn'
 import Deep from '../section/Deep'
+import Learntest from '../section/Learntest'
 import Smartfeed from '../section/Smartfeed'
 import CarouselCard from '../section/Carouselcard'
 import Footer from '../components/Footer'
@@ -14,8 +15,9 @@ export default function Home() {
     <Navbar/>
     <Hero/>
     <Carousel/>
-    <Learn/>
-   {/*  <Deep/> */}
+   {/*  <Learn/> */}
+    {/*  <Deep/> */}
+    <Learntest/>
     <Test/>
     <Smartfeed/>
     <CarouselCard/>
